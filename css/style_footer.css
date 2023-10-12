@@ -1,0 +1,134 @@
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    /* background-image: url(../img/background-footer.svg); */
+    background-size: cover;
+    background-color: #ffdae5;
+    
+    -webkit-mask-image: url(../img/background-footer.svg);
+    mask-image:  url(../img/background-footer.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+.footer__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 100px auto 50px;
+
+}
+.box{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    height: max-content;
+}
+
+.logo__footer{
+    height: 60px;
+}
+.social{
+    height: 20px;
+    
+}
+.termins{
+    width: 150px;
+    color: #252525;
+
+}
+
+
+
+.box_about{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+}
+.box_about a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #252525;
+
+}
+.box_about h2{
+    margin-bottom: 10px;
+}
+
+
+.box_projects{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+}
+.box_projects a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #252525;
+    
+}
+.box_projects h2{
+    margin-bottom: 10px;
+}
+
+
+.box_more{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+}
+.box_more a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FF3B77;
+    color: #252525;
+
+    
+}
+.box_more h2{
+    margin-bottom: 10px;
+}
+
+
+
+
+.box_social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-top:3px double #2f0f18 ;
+    border-bottom:3px double #2f0f18 ;
+
+}
+.box_social a{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 2px 10px;
+    font-size: 20px;    
+    color: #2f0f18;
+}
+.social__links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box_social h2{
+    margin-bottom: 10px;
+}
+.social__links{
+    display: flex;
+    justify-content: center;
+}
+.copyrigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #7a7a7a;
+}

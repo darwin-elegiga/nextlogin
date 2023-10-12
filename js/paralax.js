@@ -1,0 +1,1 @@
+var position = window.pageYOffset || document.documentElement.scrollTop;

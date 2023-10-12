@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height: 40px;
+    background-color: #fec6d733;
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+.logo{
+    height: 40px;
+}
+
+.menu__ul{
+    display: flex;
+    position: absolute;
+    left: -500vw;
+    /* margin: auto; */
+    width: 40%;
+    background-color:#fec6d7;
+    
+    height: 100vh;
+    /* top: -100vh; */
+
+    flex-direction: column;
+    align-items: center;
+    transition: top 400ms;
+}
+
+.menu__li{
+    position: relative;
+    top: 50px;
+    margin-top: 45px;
+    list-style: none;
+    border-radius: 0px;
+    background: none;
+
+}
+.menu__a{
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.menu__ul-visible{
+    left: 0px;
+    top: 40px;
+}
+
+.welcome{
+    background-image: url(../img/fondo1.jfif);
+    height: 100vh;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+
+  
+}
+
+.presentation{
+    display: block;
+    font-family: monospace;
+    font-weight: 700;
+    white-space: nowrap;
+    border-right: 2px ;
+    font-size: 86px;
+    width: 12ch;
+    animation: typing 2s steps(12), blink 500ms infinite; /* terminar*/
+    margin: 22.6% auto;
+    color: #ffffff;
+}
+
+
+/*pp*/ 
+.menu__ul-pp{
+    background-color: transparent;
+    top: 0px;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    
+    position: fixed;
+    display: flex;
+    margin: auto ;
+    width: max-content;
+    height: 0;
+    width: 100%;
+ 
+    left: 0px;
+    
+    
+} 
+.header-pp{
+    background-color: transparent;
+    height: 60px;
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    width: 100%;
+
+}
+.bars-menu-pp{
+    display: none;
+}
+
+.menu__li-pp{
+    top: 4vw;
+    margin: 0 4px;
+    left: 0px;
+    transition: all ease 400ms;
+    padding: 5px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);
+    background-color: rgba(157, 255, 255, 0.127);
+    /* border: solid .01px #ffffff53; */
+}
+.logo-pp{
+    position: fixed;
+
+    height: 7vw;
+}
+.menu__a-pp{
+    color: #fff;
+    top: 0;
+    font-size: 2vw;
+    transition: all ease 500ms;
+
+
+}
+
+.menu__li-pp:hover{
+    transform: scale(1.03);
+    background-color: #fff;
+    backdrop-filter: blur(50px);
+    border: solid 1px #000;
+    
+} 
+.menu__li-pp:hover a{
+    color: #000
+    
+}
+
+
+
+
+/* SECTION ALBUM  */
+.album{
+    background-image: url(../img/bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album__ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.album__img{
+    width: 400px;
+}
+.album__li{
+    background-color: rgb(229, 255, 246);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 100px;
+    transition: all ease 300ms;
+
+    
+}
+.album__li h2{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(42, 12, 12);
+    font-size: 35px;
+}
+.album__li__div{
+    background-color: #fff;
+    border-radius: 30px;
+}
+.album__li:hover{
+    transform: scale(1.009);
+    box-shadow: 0px 0px 50px 0px black;
+}
+
+.servicios{
+    background-image: url(../img/pray.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:800px;
+}
